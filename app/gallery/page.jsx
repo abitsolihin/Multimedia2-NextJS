@@ -44,7 +44,7 @@ export default function Gallery() {
 
     return (
         <section className="pt-28 px-4 w-full min-h-screen relative">
-            <div className="gallery">
+            <div className="gallery columns-3">
                 {images.map((item) => ( loading ? 
                     <div className="wrapper w-full h-[250px] mb-[12px] group relative animate-pulse bg-gray-400 " key={item.id}>
                     </div> :

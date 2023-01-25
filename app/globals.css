@@ -72,7 +72,3 @@ body{
 .nav-item:hover::after{
   transform: translateX(0px);
 }
-.gallery{
-  column-count: 3;
-  column-width: 33.3%;
-}
