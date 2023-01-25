@@ -46,9 +46,9 @@ export default function Gallery() {
         <section className="pt-28 px-4 w-full min-h-screen relative">
             <div className="gallery">
                 {images.map((item) => ( loading ? 
-                    <div className="wrapper w-dull h-[250px] mb-[12px] group relative animate-pulse bg-gray-400 " key={item.id}>
+                    <div className="wrapper w-full h-[250px] mb-[12px] group relative animate-pulse bg-gray-400 " key={item.id}>
                     </div> :
-                <div className="wrapper w-full mb-[12px] group relative" key={item.id}>
+                <div className="wrapper w-auto mb-[12px] group relative" key={item.id}>
                         <div className="kenangan absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center duration-300 opacity-0 group-hover:opacity-100 bg-black/50 text-[8px] md:text-xl p-4">
                             <h1>"{item.kenangan}"</h1>
                         </div>
