@@ -52,7 +52,7 @@ export default function Gallery() {
                         <div className="kenangan absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center duration-300 opacity-0 group-hover:opacity-100 bg-black/50 text-[8px] md:text-xl p-4">
                             <h1>"{item.kenangan}"</h1>
                         </div>
-                        <img className="w-full object-center inset-0 h-full" src={`http://localhost:8000/${item.image}`} alt={item.kenangan} />
+                        <img className="object-center inset-0" src={`http://localhost:8000/${item.image}`} alt={item.kenangan} />
                     </div>
                 ))}
             </div>
